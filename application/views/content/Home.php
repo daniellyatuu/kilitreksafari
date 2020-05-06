@@ -253,24 +253,12 @@
                 <div class="col-md-4 col-sm-6 col-xs-6 destination-box">
                     <div class="destination-content">
                         <img src="<?=base_url('assets/images/destination-1.jpg'); ?>" alt="Destination" />
-                        <h3><span>kathmandu</span></h3>
+                        <h3><span>Machame Route</span></h3>
                         <div class="destination-content-box">
-                            <h4>Nepal Travel<br> With Me </h4>
-                            <h5>Duration : <span>6 Months</span></h5>
-                            <h2>$1999 <sub>$2500</sub><span>Per Person</span></h2>
-                            <span>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star-o"></i>
-                            </span>
-                            <ul>
-                                <li><a href="#"><i class="fa fa-plane"></i></a></li>
-                                <li><a href="#"><i class="fa fa-bus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-male"></i></a></li>
-                                <li><a href="#"><i class="fa fa-ship"></i></a></li>
-                            </ul>
+                            <h4>Machame Route</h4>
+                            <h5>Duration : <span>6 - 7 days</span></h5>
+                            
+                            <a href="" class="btn btn-success btn-outline">book now</a>
                         </div>
                     </div>
                 </div><!-- Destination Box /- -->
@@ -278,24 +266,12 @@
                 <div class="col-md-4 col-sm-6 col-xs-6 destination-box">
                     <div class="destination-content">
                         <img src="<?=base_url('assets/images/destination-2.jpg'); ?>" alt="Destination" />
-                        <h3><span>Europe</span></h3>
+                        <h3><span>Umbwe Route</span></h3>
                         <div class="destination-content-box">
-                            <h4>Europe Travel<br> With Me </h4>
-                            <h5>Duration : <span>6 Months</span></h5>
-                            <h2>$1999 <sub>$2500</sub><span>Per Person</span></h2>
-                            <span>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star-o"></i>
-                            </span>
-                            <ul>
-                                <li><a href="#"><i class="fa fa-plane"></i></a></li>
-                                <li><a href="#"><i class="fa fa-bus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-male"></i></a></li>
-                                <li><a href="#"><i class="fa fa-ship"></i></a></li>
-                            </ul>
+                            <h4>Umbwe Route </h4>
+                            <h5>Duration : <span>6 - 7 days</span></h5>
+                            
+                            <a href="" class="btn btn-success btn-outline">book now</a>
                         </div>
                     </div>
                 </div><!-- Destination Box /- -->
@@ -303,24 +279,82 @@
                 <div class="col-md-4 col-sm-6 col-xs-6 destination-box">
                     <div class="destination-content">
                         <img src="<?=base_url('assets/images/destination-3.jpg'); ?>" alt="Destination" />
-                        <h3><span>lisbon</span></h3>
+                        <h3><span>Mt Meru Climbing and Safari</span></h3>
                         <div class="destination-content-box">
-                            <h4>Portugal Travel<br> With Me </h4>
-                            <h5>Duration : <span>6 Months</span></h5>
-                            <h2>$1999 <sub>$2500</sub><span>Per Person</span></h2>
-                            <span>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star-o"></i>
-                            </span>
-                            <ul>
-                                <li><a href="#"><i class="fa fa-plane"></i></a></li>
-                                <li><a href="#"><i class="fa fa-bus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-male"></i></a></li>
-                                <li><a href="#"><i class="fa fa-ship"></i></a></li>
-                            </ul>
+                            <h4>Mt Meru Climbing and <br/>Safari</h4>
+                            <h5>Duration : <span> 8 Days</span></h5>
+                            
+                            <a href="" class="btn btn-success btn-outline">book now</a>
+                        </div>
+                    </div>
+                </div><!-- Destination Box /- -->
+
+                <!-- Destination Box -->
+                <div class="col-md-4 col-sm-6 col-xs-6 destination-box">
+                    <div class="destination-content">
+                        <img src="<?=base_url('assets/images/destination-4.jpg'); ?>" alt="Destination" />
+                        <h3><span>Shira Route</span></h3>
+                        <div class="destination-content-box">
+                            <h4>Shira Route</h4>
+                            <h5>Duration : <span> 7 Days</span></h5>
+                            
+                            <a href="" class="btn btn-success btn-outline">book now</a>
+                        </div>
+                    </div>
+                </div><!-- Destination Box /- -->
+
+                <!-- Destination Box -->
+                <div class="col-md-4 col-sm-6 col-xs-6 destination-box">
+                    <div class="destination-content">
+                        <img src="<?=base_url('assets/images/destination-5.jpg'); ?>" alt="Destination" />
+                        <h3><span>Marangu Route</span></h3>
+                        <div class="destination-content-box">
+                            <h4>Marangu Route</h4>
+                            <h5>Duration : <span> 6 Days</span></h5>
+                            
+                            <a href="" class="btn btn-success btn-outline">book now</a>
+                        </div>
+                    </div>
+                </div><!-- Destination Box /- -->
+
+                <!-- Destination Box -->
+                <div class="col-md-4 col-sm-6 col-xs-6 destination-box">
+                    <div class="destination-content">
+                        <img src="<?=base_url('assets/images/destination-6.jpg'); ?>" alt="Destination" />
+                        <h3><span>Lemosho Route</span></h3>
+                        <div class="destination-content-box">
+                            <h4>Lemosho Route</h4>
+                            <h5>Duration : <span> 7 Days</span></h5>
+                            
+                            <a href="" class="btn btn-success btn-outline">book now</a>
+                        </div>
+                    </div>
+                </div><!-- Destination Box /- -->
+
+                <!-- Destination Box -->
+                <div class="col-md-4 col-sm-6 col-xs-6 destination-box">
+                    <div class="destination-content">
+                        <img src="<?=base_url('assets/images/destination-1.jpg'); ?>" alt="Destination" />
+                        <h3><span>Rongai Route</span></h3>
+                        <div class="destination-content-box">
+                            <h4>Rongai Route</h4>
+                            <h5>Duration : <span> 7 Days</span></h5>
+                            
+                            <a href="" class="btn btn-success btn-outline">book now</a>
+                        </div>
+                    </div>
+                </div><!-- Destination Box /- -->
+
+                <!-- Destination Box -->
+                <div class="col-md-4 col-sm-6 col-xs-6 destination-box">
+                    <div class="destination-content">
+                        <img src="<?=base_url('assets/images/destination-3.jpg'); ?>" alt="Destination" />
+                        <h3><span>Northern Circuit</span></h3>
+                        <div class="destination-content-box">
+                            <h4>Northern Circuit</h4>
+                            <h5>Duration : <span> 9 Days</span></h5>
+                            
+                            <a href="" class="btn btn-success btn-outline">book now</a>
                         </div>
                     </div>
                 </div><!-- Destination Box /- -->
