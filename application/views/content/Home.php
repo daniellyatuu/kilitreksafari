@@ -8,7 +8,7 @@
                 <ul>
                     <li data-transition="fade" data-slotamount="default"  data-easein="easeInOut" data-easeout="easeInOut" data-masterspeed="2000" data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7">
                         <!-- MAIN IMAGE -->
-                        <img src="<?=base_url('assets/images/slide1.jpg'); ?>"  alt="Slide" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                        <img src="<?=base_url('assets/images/kili_slider1.jpg'); ?>"  alt="Slide" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                         
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption tp-shape tp-shapewrapper" id="slide-1-layer-1"
@@ -41,7 +41,7 @@
                             data-transform_out="opacity:0;s:1500;e:Power4.easeIn;s:1500;e:Power4.easeIn;" 
                             data-start="2750" 
                             data-responsive_offset="on"									
-                            style="z-index: 7;"><img src="<?=base_url('assets/images/slide-logo.png'); ?>" alt="" width="122" height="127" data-ww="['122px','70px','70px','70px']" data-hh="['127px','73px','73px','73px']" data-no-retina> 
+                            style="z-index: 7;"><img src="<?=base_url('assets/images/kili-slide-logo.png'); ?>" alt="" width="122" height="127" data-ww="['122px','70px','70px','70px']" data-hh="['127px','73px','73px','73px']" data-no-retina> 
                         </div>
                         
                         <!-- LAYER NR. 2 -->
@@ -85,7 +85,7 @@
                     
                     <li data-transition="fade" data-slotamount="default"  data-easein="easeInOut" data-easeout="easeInOut" data-masterspeed="2000" data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7">
                         <!-- MAIN IMAGE -->
-                        <img src="<?=base_url('assets/images/slide2.jpg'); ?>"  alt="Slide"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                        <img src="<?=base_url('assets/images/kili_slider2.jpg'); ?>"  alt="Slide"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                         
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption tp-shape tp-shapewrapper" id="slide-2-layer-1"
@@ -118,7 +118,7 @@
                             data-transform_out="opacity:0;s:1500;e:Power4.easeIn;s:1500;e:Power4.easeIn;" 
                             data-start="2750" 
                             data-responsive_offset="on"									
-                            style="z-index: 7;"><img src="<?=base_url('assets/images/slide-logo.png'); ?>" alt="" width="122" height="127" data-ww="['122px','70px','70px','70px']" data-hh="['127px','73px','73px','73px']" data-no-retina> 
+                            style="z-index: 7;"><img src="<?=base_url('assets/images/kili-slide-logo.png'); ?>" alt="" width="122" height="127" data-ww="['122px','70px','70px','70px']" data-hh="['127px','73px','73px','73px']" data-no-retina> 
                         </div>
                         
                         <!-- LAYER NR. 2 -->
@@ -182,32 +182,32 @@
                     <!-- Features Box -->
                     <div class="col-md-12 features-box">
                         <div class="features-detail">
-                            <img src="<?=base_url('assets/images/feature-img1.jpg'); ?>" alt="Features" />
-                            <h4>hiking.</h4>
-                            <a href="<?=base_url('assets/images/feature-img1.jpg'); ?>"><i class="fa fa-search"></i></a>
+                            <img src="<?=base_url('assets/images/kili-feature-img1.jpg'); ?>" alt="Features" />
+                            <h4>hiking.</h4>    
+                            <a href="<?=base_url('assets/images/kili-feature-img1.jpg'); ?>"><i class="fa fa-search"></i></a>
                         </div>
                     </div><!-- Features Box /- -->
                     <!-- Features Box -->
                     <div class="col-md-12 features-box">
                         <div class="features-detail">
-                            <img src="<?=base_url('assets/images/feature-img2.jpg'); ?>" alt="Features" />
-                            <h4>cycling.</h4>
-                            <a href="<?=base_url('assets/images/feature-img2.jpg'); ?>"><i class="fa fa-search"></i></a>
+                            <img src="<?=base_url('assets/images/kili-feature-img2.jpg'); ?>" alt="Features" />
+                            <h4>comp life.</h4>
+                            <a href="<?=base_url('assets/images/kili-feature-img2.jpg'); ?>"><i class="fa fa-search"></i></a>
                         </div>
                     </div><!-- Features Box /- -->
                     <!-- Features Box -->
                     <div class="col-md-12 features-box">
                         <div class="features-detail">
-                            <img src="<?=base_url('assets/images/feature-img3.jpg'); ?>" alt="Features" />
-                            <h4>hiking.</h4>
-                            <a href="<?=base_url('assets/images/feature-img3.jpg'); ?>"><i class="fa fa-search"></i></a>
+                            <img src="<?=base_url('assets/images/kili-feature-img3.jpg'); ?>" alt="Features" />
+                            <h4>snow view.</h4>
+                            <a href="<?=base_url('assets/images/kili-feature-img3.jpg'); ?>"><i class="fa fa-search"></i></a>
                         </div>
                     </div><!-- Features Box /- -->
                     <!-- Features Box -->
                     <div class="col-md-12 features-box">
                         <div class="features-detail">
                             <img src="<?=base_url('assets/images/feature-img4.jpg'); ?>" alt="Features" />
-                            <h4>wild life.</h4>
+                            <h4>top view.</h4>
                             <a href="<?=base_url('assets/images/feature-img4.jpg'); ?>"><i class="fa fa-search"></i></a>
                         </div>
                     </div><!-- Features Box /- -->
@@ -246,119 +246,30 @@
                 <h3>Attractive Travel Plans</h3>
                 <h6>our destinations</h6>
             </div><!-- Section Header /- -->
-            
+            <?php
+            $destination = $this->db->get('destination');
+            ?>
             <!-- Row -->
             <div class="row">
+                <?php
+                foreach($destination->result() as $row_data){
+                ?>
                 <!-- Destination Box -->
                 <div class="col-md-4 col-sm-6 col-xs-6 destination-box">
                     <div class="destination-content">
-                        <img src="<?=base_url('assets/images/destination-1.jpg'); ?>" alt="Destination" />
-                        <h3><span>Machame Route</span></h3>
+                        <img src="<?=base_url('assets/images/'); ?><?=$row_data->image_url;?>" alt="Destination" />
+                        <h3><span><?=$row_data->route_name;?></span></h3>
                         <div class="destination-content-box">
-                            <h4>Machame Route</h4>
-                            <h5>Duration : <span>6 - 7 days</span></h5>
+                            <h4><?=$row_data->route_name;?></h4>
+                            <h5>Duration : <span><?=$row_data->duration;?></span></h5>
                             
-                            <a href="" class="btn btn-success btn-outline">book now</a>
+                            <a href="<?=base_url('main/single_destination/');?><?=$row_data->id;?>" class="btn btn-success btn-outline">view more</a>
                         </div>
                     </div>
                 </div><!-- Destination Box /- -->
-                <!-- Destination Box -->
-                <div class="col-md-4 col-sm-6 col-xs-6 destination-box">
-                    <div class="destination-content">
-                        <img src="<?=base_url('assets/images/destination-2.jpg'); ?>" alt="Destination" />
-                        <h3><span>Umbwe Route</span></h3>
-                        <div class="destination-content-box">
-                            <h4>Umbwe Route </h4>
-                            <h5>Duration : <span>6 - 7 days</span></h5>
-                            
-                            <a href="" class="btn btn-success btn-outline">book now</a>
-                        </div>
-                    </div>
-                </div><!-- Destination Box /- -->
-                <!-- Destination Box -->
-                <div class="col-md-4 col-sm-6 col-xs-6 destination-box">
-                    <div class="destination-content">
-                        <img src="<?=base_url('assets/images/destination-3.jpg'); ?>" alt="Destination" />
-                        <h3><span>Mt Meru Climbing and Safari</span></h3>
-                        <div class="destination-content-box">
-                            <h4>Mt Meru Climbing and <br/>Safari</h4>
-                            <h5>Duration : <span> 8 Days</span></h5>
-                            
-                            <a href="" class="btn btn-success btn-outline">book now</a>
-                        </div>
-                    </div>
-                </div><!-- Destination Box /- -->
-
-                <!-- Destination Box -->
-                <div class="col-md-4 col-sm-6 col-xs-6 destination-box">
-                    <div class="destination-content">
-                        <img src="<?=base_url('assets/images/destination-4.jpg'); ?>" alt="Destination" />
-                        <h3><span>Shira Route</span></h3>
-                        <div class="destination-content-box">
-                            <h4>Shira Route</h4>
-                            <h5>Duration : <span> 7 Days</span></h5>
-                            
-                            <a href="" class="btn btn-success btn-outline">book now</a>
-                        </div>
-                    </div>
-                </div><!-- Destination Box /- -->
-
-                <!-- Destination Box -->
-                <div class="col-md-4 col-sm-6 col-xs-6 destination-box">
-                    <div class="destination-content">
-                        <img src="<?=base_url('assets/images/destination-5.jpg'); ?>" alt="Destination" />
-                        <h3><span>Marangu Route</span></h3>
-                        <div class="destination-content-box">
-                            <h4>Marangu Route</h4>
-                            <h5>Duration : <span> 6 Days</span></h5>
-                            
-                            <a href="" class="btn btn-success btn-outline">book now</a>
-                        </div>
-                    </div>
-                </div><!-- Destination Box /- -->
-
-                <!-- Destination Box -->
-                <div class="col-md-4 col-sm-6 col-xs-6 destination-box">
-                    <div class="destination-content">
-                        <img src="<?=base_url('assets/images/destination-6.jpg'); ?>" alt="Destination" />
-                        <h3><span>Lemosho Route</span></h3>
-                        <div class="destination-content-box">
-                            <h4>Lemosho Route</h4>
-                            <h5>Duration : <span> 7 Days</span></h5>
-                            
-                            <a href="" class="btn btn-success btn-outline">book now</a>
-                        </div>
-                    </div>
-                </div><!-- Destination Box /- -->
-
-                <!-- Destination Box -->
-                <div class="col-md-4 col-sm-6 col-xs-6 destination-box">
-                    <div class="destination-content">
-                        <img src="<?=base_url('assets/images/destination-1.jpg'); ?>" alt="Destination" />
-                        <h3><span>Rongai Route</span></h3>
-                        <div class="destination-content-box">
-                            <h4>Rongai Route</h4>
-                            <h5>Duration : <span> 7 Days</span></h5>
-                            
-                            <a href="" class="btn btn-success btn-outline">book now</a>
-                        </div>
-                    </div>
-                </div><!-- Destination Box /- -->
-
-                <!-- Destination Box -->
-                <div class="col-md-4 col-sm-6 col-xs-6 destination-box">
-                    <div class="destination-content">
-                        <img src="<?=base_url('assets/images/destination-3.jpg'); ?>" alt="Destination" />
-                        <h3><span>Northern Circuit</span></h3>
-                        <div class="destination-content-box">
-                            <h4>Northern Circuit</h4>
-                            <h5>Duration : <span> 9 Days</span></h5>
-                            
-                            <a href="" class="btn btn-success btn-outline">book now</a>
-                        </div>
-                    </div>
-                </div><!-- Destination Box /- -->
-                
+                <?php
+                }
+                ?>
             </div><!-- Row /- -->
         </div><!-- Container /- -->
     </div><!-- Destination Section /- -->
@@ -419,10 +330,10 @@
         <!-- Gallery Box -->
         <div class="col-md-4 col-sm-3 col-xs-4 no-padding gallery-box">
             <div class="gallery-detail">
-                <img src="<?=base_url('assets/images/gallery-1.jpg'); ?>" alt="Gallery" />
+                <img src="<?=base_url('assets/images/pic-1.jpg'); ?>" alt="Gallery" />
                 <div class="gallery-link">
                     
-                    <a href="<?=base_url('assets/images/gallery-1.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
+                    <a href="<?=base_url('assets/images/pic-1.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
                 </div>
             </div>
         </div><!-- Gallery Box /- -->
@@ -430,10 +341,10 @@
         <!-- Gallery Box -->
         <div class="col-md-4 col-sm-3 col-xs-4 no-padding gallery-box">
             <div class="gallery-detail">
-                <img src="<?=base_url('assets/images/gallery-2.jpg'); ?>" alt="Gallery" />
+                <img src="<?=base_url('assets/images/pic-2.jpg'); ?>" alt="Gallery" />
                 <div class="gallery-link">
                     
-                    <a href="<?=base_url('assets/images/gallery-2.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
+                    <a href="<?=base_url('assets/images/pic-2.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
                 </div>
             </div>
         </div><!-- Gallery Box /- -->
@@ -441,10 +352,10 @@
         <!-- Gallery Box -->
         <div class="col-md-4 col-sm-3 col-xs-4 no-padding gallery-box">
             <div class="gallery-detail">
-                <img src="<?=base_url('assets/images/gallery-3.jpg'); ?>" alt="Gallery" />
+                <img src="<?=base_url('assets/images/pic-3.jpg'); ?>" alt="Gallery" />
                 <div class="gallery-link">
                     
-                    <a href="<?=base_url('assets/images/gallery-3.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
+                    <a href="<?=base_url('assets/images/pic-3.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
                 </div>
             </div>
         </div><!-- Gallery Box /- -->
@@ -452,10 +363,10 @@
         <!-- Gallery Box -->
         <div class="col-md-4 col-sm-3 col-xs-4 no-padding gallery-box">
             <div class="gallery-detail">
-                <img src="<?=base_url('assets/images/gallery-4.jpg'); ?>" alt="Gallery" />
+                <img src="<?=base_url('assets/images/pic-4.jpg'); ?>" alt="Gallery" />
                 <div class="gallery-link">
                     
-                    <a href="<?=base_url('assets/images/gallery-4.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
+                    <a href="<?=base_url('assets/images/pic-4.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
                 </div>
             </div>
         </div><!-- Gallery Box /- -->
@@ -463,10 +374,10 @@
         <!-- Gallery Box -->
         <div class="col-md-4 col-sm-3 col-xs-4 no-padding gallery-box">
             <div class="gallery-detail">
-                <img src="<?=base_url('assets/images/gallery-5.jpg'); ?>" alt="Gallery" />
+                <img src="<?=base_url('assets/images/pic-5.jpg'); ?>" alt="Gallery" />
                 <div class="gallery-link">
                     
-                    <a href="<?=base_url('assets/images/gallery-5.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
+                    <a href="<?=base_url('assets/images/pic-5.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
                 </div>
             </div>
         </div><!-- Gallery Box /- -->
@@ -474,10 +385,10 @@
         <!-- Gallery Box -->
         <div class="col-md-4 col-sm-3 col-xs-4 no-padding gallery-box">
             <div class="gallery-detail">
-                <img src="<?=base_url('assets/images/gallery-6.jpg'); ?>" alt="Gallery" />
+                <img src="<?=base_url('assets/images/pic-6.jpg'); ?>" alt="Gallery" />
                 <div class="gallery-link">
                     
-                    <a href="<?=base_url('assets/images/gallery-6.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
+                    <a href="<?=base_url('assets/images/pic-6.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
                 </div>
             </div>
         </div><!-- Gallery Box /- -->
@@ -485,10 +396,10 @@
         <!-- Gallery Box -->
         <div class="col-md-4 col-sm-3 col-xs-4 no-padding gallery-box">
             <div class="gallery-detail">
-                <img src="<?=base_url('assets/images/gallery-7.jpg'); ?>" alt="Gallery" />
+                <img src="<?=base_url('assets/images/pic-7.jpg'); ?>" alt="Gallery" />
                 <div class="gallery-link">
                     
-                    <a href="<?=base_url('assets/images/gallery-7.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
+                    <a href="<?=base_url('assets/images/pic-7.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
                 </div>
             </div>
         </div><!-- Gallery Box /- -->
@@ -496,10 +407,10 @@
         <!-- Gallery Box -->
         <div class="col-md-4 col-sm-3 col-xs-4 no-padding gallery-box">
             <div class="gallery-detail">
-                <img src="<?=base_url('assets/images/gallery-8.jpg'); ?>" alt="Gallery" />
+                <img src="<?=base_url('assets/images/pic-8.jpg'); ?>" alt="Gallery" />
                 <div class="gallery-link">
                     
-                    <a href="<?=base_url('assets/images/gallery-8.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
+                    <a href="<?=base_url('assets/images/pic-8.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
                 </div>
             </div>
         </div><!-- Gallery Box /- -->
@@ -507,10 +418,10 @@
         <!-- Gallery Box -->
         <div class="col-md-4 col-sm-3 col-xs-4 no-padding gallery-box">
             <div class="gallery-detail">
-                <img src="<?=base_url('assets/images/gallery-9.jpg'); ?>" alt="Gallery" />
+                <img src="<?=base_url('assets/images/pic-9.jpg'); ?>" alt="Gallery" />
                 <div class="gallery-link">
                     
-                    <a href="<?=base_url('assets/images/gallery-9.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
+                    <a href="<?=base_url('assets/images/pic-9.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
                 </div>
             </div>
         </div><!-- Gallery Box /- -->
@@ -518,10 +429,10 @@
         <!-- Gallery Box -->
         <div class="col-md-4 col-sm-3 col-xs-4 no-padding gallery-box">
             <div class="gallery-detail">
-                <img src="<?=base_url('assets/images/gallery-10.jpg'); ?>" alt="Gallery" />
+                <img src="<?=base_url('assets/images/pic-10.jpg'); ?>" alt="Gallery" />
                 <div class="gallery-link">
                     
-                    <a href="<?=base_url('assets/images/gallery-10.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
+                    <a href="<?=base_url('assets/images/pic-10.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
                 </div>
             </div>
         </div><!-- Gallery Box /- -->

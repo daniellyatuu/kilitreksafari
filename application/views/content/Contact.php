@@ -20,7 +20,7 @@
 							<div class="contact-detail">
 								<i class="icon icon-Phone2"></i>
 								<h4>Call Us :</h4>
-								<p>+(12551) 715 *** ***</p>
+								<p>+(12551) 787 096 001</p>
 							</div>
 						</div><!-- Contact Box /- -->
 						<!-- Contact Box -->

@@ -48,5 +48,26 @@ class Main extends CI_Controller{
         $this->load->view('footer/Footer');
     }
 
+    public function destination(){
+        $context['active']='destination';
+        $context['title']='destinations';
+        $this->load->view('header/Header', $context);
+        $this->load->view('menu/Navbar');
+        $this->load->view('content/Destination');
+        $this->load->view('footer/Footer_text');
+        $this->load->view('footer/Footer');
+    }
+
+    public function single_destination(){
+        $context['active']='destination';
+        $context['title']='destination';
+        $this->load->view('header/Header', $context);
+        $this->load->view('menu/Navbar');
+        $this->load->view('content/Single_destination');
+        $this->load->view('footer/Footer_text');
+        $this->load->view('footer/Footer');
+    }
+
+
 }
 ?>

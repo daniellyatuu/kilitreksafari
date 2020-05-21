@@ -61,18 +61,17 @@
 						<div class="navbar-collapse collapse" id="navbar">
 							<ul class="nav navbar-nav">
 
-								<li style="visibility:hidden;" class="hidden-xs"><a href="services.html" title="Services">Services</a></li>
-								<li style="visibility:hidden;" class="hidden-xs"><a href="gallery.html" title="Gallery">Gallery</a></li>
-								
 								<li class="<?php if(!empty($active)){ if($active=='index'){ echo 'active'; } } ?>">
 									<a href="<?=base_url();?>" title="Home">Home</a>
 								</li>
-								<li class="<?php if(!empty($active)){ if($active=='about'){ echo 'active'; } } ?>"><a href="<?=base_url('main/about');?>" title="About me">About</a></li>
+								<li style="" class="<?php if(!empty($active)){ if($active=='destination'){ echo 'active'; } } ?>"><a href="<?=base_url('main/destination');?>" title="Gallery">Destination</a></li>
 								
+								<li class="<?php if(!empty($active)){ if($active=='gallery'){ echo 'active'; } } ?>"><a href="<?=base_url('main/gallery');?>" title="Destination">Gallery</a></li>
+								<li style="visibility:hidden;" class="hidden-xs"><a href="services.html" title="Services">About</a></li>
 								<li class="<?php if(!empty($active)){ if($active=='contact'){ echo 'active'; } } ?>"><a href="<?=base_url('main/contact');?>" title="Contact Us">Contact Us</a></li>
-								<li class="<?php if(!empty($active)){ if($active=='gallery'){ echo 'active'; } } ?>"><a href="<?=base_url('main/gallery');?>" title="Destination">Gallery <span style="visibility:hidden;" class="hidden-xs">****</span></a></li>
-								<li style="visibility:hidden;" class="hidden-xs">
-									<a href="javascript:void(0);" title="Pages">Pages</a>
+								<li class="<?php if(!empty($active)){ if($active=='about'){ echo 'active'; } } ?>"><a href="<?=base_url('main/about');?>" title="About me">About</a></li>
+								<li style="">
+									<a href="javascript:void(0);" title="Pages">team</a>
 								</li>
 								<li style="visibility:hidden;" class="hidden-xs">
 									<a href="javascript:void(0);" title="Blog">Blog</a>
