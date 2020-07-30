@@ -1,156 +1,161 @@
-<main>
-			
-			<!-- Page Header -->
-			<div class="container-fluid no-padding page-header">
-				<div class="container">
-					<ol class="breadcrumb">
-						<li><a href="#">Home</a></li>
-						<li class="active">Blog</li>
-					</ol>
-				</div>
-			</div><!-- Page Header /- -->
-			
-			<!-- Gallery Page -->
-			<div class="container-fluid no-left-padding no-right-padding gallery-page">
-				<!-- Gallery Section -->
-				<div id="gallery-section" class="container-fluid no-left-padding no-right-padding gallery-section">
-				<!-- Container -->
-				<div class="container">
-					<!-- Section Header -->
-					<div class="section-header">
-						<h3>Fabulous Places</h3>
-						<h6>our gallery</h6>
-					</div><!-- Section Header /- -->
-				</div><!-- Container /- -->
-				
-				<!-- Gallery Box -->
-				<div class="col-md-4 col-sm-3 col-xs-4 no-padding gallery-box">
-					<div class="gallery-detail">
-						<img src="<?=base_url('assets/images/pic-1.jpg'); ?>" alt="Gallery" />
-						<div class="gallery-link">
-							
-							<a href="<?=base_url('assets/images/pic-1.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
-						</div>
-					</div>
-				</div><!-- Gallery Box /- -->
-				
-				<!-- Gallery Box -->
-				<div class="col-md-4 col-sm-3 col-xs-4 no-padding gallery-box">
-					<div class="gallery-detail">
-						<img src="<?=base_url('assets/images/pic-2.jpg'); ?>" alt="Gallery" />
-						<div class="gallery-link">
-							
-							<a href="<?=base_url('assets/images/pic-2.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
-						</div>
-					</div>
-				</div><!-- Gallery Box /- -->
-				
-				<!-- Gallery Box -->
-				<div class="col-md-4 col-sm-3 col-xs-4 no-padding gallery-box">
-					<div class="gallery-detail">
-						<img src="<?=base_url('assets/images/pic-3.jpg'); ?>" alt="Gallery" />
-						<div class="gallery-link">
-							
-							<a href="<?=base_url('assets/images/pic-3.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
-						</div>
-					</div>
-				</div><!-- Gallery Box /- -->
-				
-				<!-- Gallery Box -->
-				<div class="col-md-4 col-sm-3 col-xs-4 no-padding gallery-box">
-					<div class="gallery-detail">
-						<img src="<?=base_url('assets/images/pic-4.jpg'); ?>" alt="Gallery" />
-						<div class="gallery-link">
-							
-							<a href="<?=base_url('assets/images/pic-4.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
-						</div>
-					</div>
-				</div><!-- Gallery Box /- -->
-				
-				<!-- Gallery Box -->
-				<div class="col-md-4 col-sm-3 col-xs-4 no-padding gallery-box">
-					<div class="gallery-detail">
-						<img src="<?=base_url('assets/images/pic-5.jpg'); ?>" alt="Gallery" />
-						<div class="gallery-link">
-							
-							<a href="<?=base_url('assets/images/pic-5.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
-						</div>
-					</div>
-				</div><!-- Gallery Box /- -->
-				
-				<!-- Gallery Box -->
-				<div class="col-md-4 col-sm-3 col-xs-4 no-padding gallery-box">
-					<div class="gallery-detail">
-						<img src="<?=base_url('assets/images/pic-6.jpg'); ?>" alt="Gallery" />
-						<div class="gallery-link">
-							
-							<a href="<?=base_url('assets/images/pic-6.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
-						</div>
-					</div>
-				</div><!-- Gallery Box /- -->
-				
-				<!-- Gallery Box -->
-				<div class="col-md-4 col-sm-3 col-xs-4 no-padding gallery-box">
-					<div class="gallery-detail">
-						<img src="<?=base_url('assets/images/pic-7.jpg'); ?>" alt="Gallery" />
-						<div class="gallery-link">
-							
-							<a href="<?=base_url('assets/images/pic-7.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
-						</div>
-					</div>
-				</div><!-- Gallery Box /- -->
-				
-				<!-- Gallery Box -->
-				<div class="col-md-4 col-sm-3 col-xs-4 no-padding gallery-box">
-					<div class="gallery-detail">
-						<img src="<?=base_url('assets/images/pic-8.jpg'); ?>" alt="Gallery" />
-						<div class="gallery-link">
-							
-							<a href="<?=base_url('assets/images/pic-8.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
-						</div>
-					</div>
-				</div><!-- Gallery Box /- -->
-				
-				<!-- Gallery Box -->
-				<div class="col-md-4 col-sm-3 col-xs-4 no-padding gallery-box">
-					<div class="gallery-detail">
-						<img src="<?=base_url('assets/images/pic-9.jpg'); ?>" alt="Gallery" />
-						<div class="gallery-link">
-							
-							<a href="<?=base_url('assets/images/pic-9.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
-						</div>
-					</div>
-				</div><!-- Gallery Box /- -->
-				
-				<!-- Gallery Box -->
-				<div class="col-md-4 col-sm-3 col-xs-4 no-padding gallery-box">
-					<div class="gallery-detail">
-						<img src="<?=base_url('assets/images/pic-10.jpg'); ?>" alt="Gallery" />
-						<div class="gallery-link">
-							
-							<a href="<?=base_url('assets/images/pic-10.jpg'); ?>" class="zoom"><i class="icon icon-Eye"></i></a>
-						</div>
-					</div>
-				</div><!-- Gallery Box /- -->
-			</div><!-- Gallery Section /- -->
-				
-                <?php
-                /*
-                {
-                ?>
-				<!-- Pagination -->
-				<nav class="ow-pagination">
-					<ul class="pager">
-						<li class="previous"><a href="#"><i class="fa fa-angle-left"></i></a></li>
-						<li><a href="#">1</a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li class="next"><a href="#"><i class="fa fa-angle-right "></i></a></li>
-					</ul>
-				</nav>
-                <?php
-                }
-                */
-                ?>
-			</div><!-- Gallery Page -->
-		</main>	
+<section class="breadcrumb-outer">
+        <div class="container">
+            <div class="breadcrumb-content">
+                <h2>kilitrekisafari gallery</h2>
+                <nav aria-label="breadcrumb">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Gallery</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="content gallery" data-ref="container-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mt_filter">
+                        <ul class="list-inline text-center filter">
+                            <li class="active"><a href="#" data-filter="*">All</a></li>
+                            <li><a href="#" data-filter=".conference">Conference Room</a></li>
+                            <li><a href="#" data-filter=".restro">Restaurant</a></li>
+                            <li><a href="#" data-filter=".rooms">Rooms</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row mar-top-50">
+                <div class="isotopeContainer">
+                    <div class="isotopeSelector conference col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/gallery1.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="images/gallery/gallery1.jpg" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="isotopeSelector rooms col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/gallery2.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="images/gallery/gallery2.jpg" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="isotopeSelector restro col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/gallery3.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="images/gallery/gallery3.jpg" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="isotopeSelector conference col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/gallery4.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="images/gallery/gallery4.jpg" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="isotopeSelector restro col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/gallery5.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="images/gallery/gallery5.jpg" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="isotopeSelector rooms col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/gallery6.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="images/gallery/gallery6.jpg" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="isotopeSelector rooms col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/gallery7.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="images/gallery/gallery7.jpg" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="isotopeSelector conference col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/gallery8.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="images/gallery/gallery8.jpg" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="isotopeSelector restro col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/gallery9.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="images/gallery/gallery9.jpg" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

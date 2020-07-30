@@ -1,44 +1,24 @@
-<?=doctype('html5');?>
-<html lang="en" class="">
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from cyclonethemes.com/demo/html/hotux/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Jul 2020 11:40:14 GMT -->
 <head>
-	<meta charset="utf-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>kilitrekisafari | <?=$title;?></title>
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="<?=base_url('assets/js/aXeeT3C8FEVE2uMUPMMUDxVnKrs.js');?>"></script><link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
-    <meta name="description" content="">
-    <meta name="author" content="">
+<link href="<?=base_url('assets/css/bootstrap.min.css');?>" rel="stylesheet" type="text/css">
 
-	<title>kilitrekisafari | <?=$title;?></title>
+<link href="<?=base_url('assets/css/default.css');?>" rel="stylesheet" type="text/css">
 
-	<!-- Standard Favicon -->
-	<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
-	
-	<!-- For iPhone 4 Retina display: -->
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?=base_url('assets/images/apple-touch-icon-114x114-precomposed.png'); ?>">
-	
-	<!-- For iPhone: -->
-	<link rel="apple-touch-icon-precomposed" href="<?=base_url('assets/images/apple-touch-icon-57x57-precomposed.png'); ?>">
-	
-	<!-- Library - Google Font Familys -->
-	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet"> 
-	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet"> 
-	<link href="https://fonts.googleapis.com/css?family=Nixie+One" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-	
-	<link rel="stylesheet" type="text/css" href="<?=base_url('assets/revolution/css/settings.css'); ?>">
-	<!-- RS5.0 Layers and Navigation Styles -->
-	<link rel="stylesheet" type="text/css" href="<?=base_url('assets/revolution/css/layers.css'); ?>">
-	<link rel="stylesheet" type="text/css" href="<?=base_url('assets/revolution/css/navigation.css'); ?>">
-	
-	<!-- Library -->
-    <link rel="stylesheet" type="text/css" href="<?=base_url('assets/libraries/lib.css'); ?>">
-	
-	<!-- Custom - Theme CSS -->
-	<link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/plugins.css'); ?>">			
-	<link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/navigation-menu.css'); ?>">
-	<link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/shortcode.css'); ?>">
-	<link rel="stylesheet" type="text/css" href="<?=base_url('assets/style.css'); ?>">
-	
+<link href="<?=base_url('assets/css/style.css');?>" rel="stylesheet" type="text/css">
+
+<link href="<?=base_url('assets/css/plugin.css');?>" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"> -->
 </head>
+<body>

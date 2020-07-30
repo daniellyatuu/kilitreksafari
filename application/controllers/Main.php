@@ -23,7 +23,7 @@ class Main extends CI_Controller{
         $context['title']='about';
         $this->load->view('header/Header', $context);
         $this->load->view('menu/Navbar');
-        $this->load->view('content/About');
+        $this->load->view('content/About_us');
         $this->load->view('footer/Footer_text');
         $this->load->view('footer/Footer');
     }

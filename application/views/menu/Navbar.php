@@ -1,92 +1,74 @@
 
-<body data-offset="200" data-spy="scroll" data-target=".ow-navigation">
-	<div class="main-container">
-		<!-- Loader -->
-		<div id="site-loader" class="load-complete">
-			<div class="loader">
-				<div class="loader-inner ball-clip-rotate">
-					<div></div>
-				</div>
-			</div>
-		</div><!-- Loader /- -->
+    <div id="preloader">
+        <div id="status"></div>
+    </div>
 
-		<!-- Header Section -->
-		<header class="container-fluid no-padding header-section">
-		
-			<!-- SidePanel -->
-			<div id="slidepanel">
-			
-				<!-- Top Header -->
-				<div class="container-fluid no-padding top-header">
-					<!-- Container -->
-					<div class="container">
-						<div class="row">
-							<div class="col-md-6 col-sm-6 col-xs-12 welcome-text">
-								<span><i class="icon icon-Pointer"></i> company location in here</span>
-								<span><a href="javascript:void(0);" title=""><i class="icon icon-Phone2"></i>+(255) 787 096 001</a></span>
-							</div>
-							<div class="col-md-6 col-sm-6 social-block">
-								
-								<ul>
-									<li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-									<li style="visibility:hidden;"><a href="#" title="Tumblr"><i class="fa fa-tumblr"></i></a></li>
-								</ul>
-							</div>							
-						</div>
-						<!-- Search Box -->
-						<div class="search-box">
-							<span><i class="icon_close"></i></span>
-							<form><input type="text" class="form-control" placeholder="Enter a keyword and press enter..." /></form>
-						</div><!-- Search Box /- -->
-					</div><!-- Container /- -->
-				</div><!-- Top Header /- -->				
-			</div><!-- SidePanel /- -->
-			
-			<div class="container-fluid no-padding menu-block">
-				<!-- Container -->
-				<div class="container">	
-					<!-- nav -->
-					<nav class="navbar navbar-default ow-navigation">
-						<div class="navbar-header">
-							<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-							<a href="<?=base_url();?>" class="navbar-brand"><img src="<?=base_url('assets/images/logo3.png'); ?>" alt="logo" /></a>
-						</div>
-						<div class="navbar-collapse collapse" id="navbar">
-							<ul class="nav navbar-nav">
 
-								<li class="<?php if(!empty($active)){ if($active=='index'){ echo 'active'; } } ?>">
-									<a href="<?=base_url();?>" title="Home">Home</a>
-								</li>
-								<li style="" class="<?php if(!empty($active)){ if($active=='destination'){ echo 'active'; } } ?>"><a href="<?=base_url('main/destination');?>" title="Gallery">Destination</a></li>
-								
-								<li class="<?php if(!empty($active)){ if($active=='gallery'){ echo 'active'; } } ?>"><a href="<?=base_url('main/gallery');?>" title="Destination">Gallery</a></li>
-								<li style="visibility:hidden;" class="hidden-xs"><a href="services.html" title="Services">About</a></li>
-								<li class="<?php if(!empty($active)){ if($active=='contact'){ echo 'active'; } } ?>"><a href="<?=base_url('main/contact');?>" title="Contact Us">Contact Us</a></li>
-								<li class="<?php if(!empty($active)){ if($active=='about'){ echo 'active'; } } ?>"><a href="<?=base_url('main/about');?>" title="About me">About</a></li>
-								<li style="">
-									<a href="javascript:void(0);" title="Pages">team</a>
-								</li>
-								<li style="visibility:hidden;" class="hidden-xs">
-									<a href="javascript:void(0);" title="Blog">Blog</a>
-								</li>
-								
-							</ul>
-						</div><!--/.nav-collapse -->
-						<div id="loginpanel" class="desktop-hide">
-							<div class="right" id="toggle">
-								<a id="slideit" href="#slidepanel"><i class="fo-icons fa fa-inbox"></i></a>
-								<a id="closeit" href="#slidepanel"><i class="fo-icons fa fa-close"></i></a>
-							</div>
-						</div>
-					</nav><!-- nav /- -->
-				</div><!-- Container /- -->
-			</div>
-		</header><!-- Header Section /- -->
-	
+    <header class="main_header_area headerstyle-2">
+        <div class="header-content">
+            <div class="container">
+                <div class="links links-left">
+                    <ul>
+                        <li><a href="javascript:void(0);">info@kilitrekisafari.com</a>
+                        </li>
+                        <li><a href="javascript:void(0);"><i class="fa fa-phone" aria-hidden="true"></i>+(255) 787 096 001</a></li>
+                    </ul>
+                </div>
+                <div class="links links-right pull-right">
+                    <ul>
+                        <!-- <li><a href="#" data-toggle="modal" data-target="#login"><i class="fa fa-user"
+                                    aria-hidden="true"></i> Login</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#register"><i class="fa fa-pen"
+                                    aria-hidden="true"></i> Register</a></li> -->
+                        <li>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="header_menu affix-top">
+            <nav class="navbar navbar-default">
+                <div class="container">
+
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index-2.html">
+                            <img alt="Image" src="<?=base_url('assets/images/logo-black.png');?>" class="logo-black">
+                        </a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav" id="responsive-menu">
+                            <li class="active">
+                                <a href="<?=base_url();?>" <?php if(!empty($active)){ if($active=='index'){?> style="color: red;" <?php } } ?>>Home</a>
+                            </li>
+                            <li class="">
+                                <a href="<?=base_url('main/about');?>"  <?php if(!empty($active)){ if($active=='about'){?> style="color: red;" <?php } } ?>>About Us</a>
+                            </li>
+                            <li>
+                                <a href="<?=base_url('main/destination');?>" <?php if(!empty($active)){ if($active=='destination'){?> style="color: red;" <?php } } ?>>Destination</a>
+                                
+                            </li>
+
+                            <li class="">
+                                <a href="<?=base_url('main/gallery');?>" <?php if(!empty($active)){ if($active=='gallery'){?> style="color: red;" <?php } } ?>>Gallery</a>
+                            </li>
+
+                            <li class="">
+                                <a href="<?=base_url('main/contact');?>" <?php if(!empty($active)){ if($active=='contact'){?> style="color: red;" <?php } } ?>>Contact Us</a>
+                            </li>
+
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div id="slicknav-mobile"></div>
+            </nav>
+        </div>
+
+    </header>

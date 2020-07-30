@@ -1,49 +1,348 @@
-<main>
-			
-			<!-- Page Header -->
-			<div class="container-fluid no-padding page-header">
-				<div class="container">
-					<ol class="breadcrumb">
-						<li><a href="#">Home</a></li>
-						<li class="active">Blog</li>
-					</ol>
-				</div>
-			</div><!-- Page Header /- -->
-			
-			<!-- Destination Section -->
-            <div id="destination-section" class="container-fluid no-left-padding no-right-padding destination-section">
-        <!-- Container -->
+<section class="breadcrumb-outer">
         <div class="container">
-            <!-- Section Header -->
-            <div class="section-header">
-                <h3>Attractive Travel Plans</h3>
-                <h6>our destinations</h6>
-            </div><!-- Section Header /- -->
-            <?php
-            $destination = $this->db->get('destination');
-            ?>
-            <!-- Row -->
-            <div class="row">
-                <?php
-                foreach($destination->result() as $row_data){
-                ?>
-                <!-- Destination Box -->
-                <div class="col-md-4 col-sm-6 col-xs-6 destination-box">
-                    <div class="destination-content">
-                        <img src="<?=base_url('assets/images/'); ?><?=$row_data->image_url;?>" alt="Destination" />
-                        <h3><span><?=$row_data->route_name;?></span></h3>
-                        <div class="destination-content-box">
-                            <h4><?=$row_data->route_name;?></h4>
-                            <h5>Duration : <span><?=$row_data->duration;?></span></h5>
-                            
-                            <a href="<?=base_url('main/single_destination/');?><?=$row_data->id;?>" class="btn btn-success btn-outline">view more</a>
+            <div class="breadcrumb-content">
+                <h2>kilitrekisafari destination</h2>
+                <nav aria-label="breadcrumb">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">destination</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <section class="room-list">
+        <div class="container">
+            
+            <div class="list-content">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <div class="room-item">
+                            <div class="room-image">
+                                <img src="<?=base_url('assets/images/room-list/list1.jpg');?>" alt="image">
+                            </div>
+                            <div class="room-content">
+                                <div class="room-title">
+                                    <h4>Royal Suite</h4>
+                                    <p><i class="fa fa-tag"></i> $1200/Night</p>
+                                    <div class="deal-rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                </div>
+                                <div class="room-services mar-bottom-15">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <i class="fa fa-bed" aria-hidden="true"></i> 3 Bedrooms
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <i class="fa fa-wifi" aria-hidden="true"></i> Quick Service
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum orci nulla,
+                                    fermentum in faucibus a, interdum eu nibh.</p>
+                                <div class="room-btns">
+                                    <a href="#" class="btn btn-black mar-right-10">VIEW DETAILS</a>
+                                    <a href="#" class="btn btn-orange">BOOK NOW</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div><!-- Destination Box /- -->
-                <?php
-                }
-                ?>
-            </div><!-- Row /- -->
-        </div><!-- Container /- -->
-    </div><!-- Destination Section /- -->
-		</main>	
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <div class="room-item">
+                            <div class="room-image">
+                                <img src="<?=base_url('assets/images/room-list/list2.jpg');?>" alt="image">
+                            </div>
+                            <div class="room-content">
+                                <div class="room-title">
+                                    <h4>Deluxe Suite</h4>
+                                    <p><i class="fa fa-tag"></i> $1100/Night</p>
+                                    <div class="deal-rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                </div>
+                                <div class="room-services mar-bottom-15">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <i class="fa fa-bed" aria-hidden="true"></i> 3 Bedrooms
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <i class="fa fa-wifi" aria-hidden="true"></i> Quick Service
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum orci nulla,
+                                    fermentum in faucibus a, interdum eu nibh.</p>
+                                <div class="room-btns">
+                                    <a href="#" class="btn btn-black mar-right-10">VIEW DETAILS</a>
+                                    <a href="#" class="btn btn-orange">BOOK NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <div class="room-item">
+                            <div class="room-image">
+                                <img src="<?=base_url('assets/images/room-list/list3.jpg');?>" alt="image">
+                            </div>
+                            <div class="room-content">
+                                <div class="room-title">
+                                    <h4>Villa Suite</h4>
+                                    <p><i class="fa fa-tag"></i> $1000/Night</p>
+                                    <div class="deal-rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                </div>
+                                <div class="room-services mar-bottom-15">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <i class="fa fa-bed" aria-hidden="true"></i> 3 Bedrooms
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <i class="fa fa-wifi" aria-hidden="true"></i> Quick Service
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum orci nulla,
+                                    fermentum in faucibus a, interdum eu nibh.</p>
+                                <div class="room-btns">
+                                    <a href="#" class="btn btn-black mar-right-10">VIEW DETAILS</a>
+                                    <a href="#" class="btn btn-orange">BOOK NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <div class="room-item">
+                            <div class="room-image">
+                                <img src="<?=base_url('assets/images/room-list/list4.jpg');?>" alt="image">
+                            </div>
+                            <div class="room-content">
+                                <div class="room-title">
+                                    <h4>Terrace Suite</h4>
+                                    <p><i class="fa fa-tag"></i> $900/Night</p>
+                                    <div class="deal-rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                </div>
+                                <div class="room-services mar-bottom-15">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <i class="fa fa-bed" aria-hidden="true"></i> 3 Bedrooms
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <i class="fa fa-wifi" aria-hidden="true"></i> Quick Service
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum orci nulla,
+                                    fermentum in faucibus a, interdum eu nibh.</p>
+                                <div class="room-btns">
+                                    <a href="#" class="btn btn-black mar-right-10">VIEW DETAILS</a>
+                                    <a href="#" class="btn btn-orange">BOOK NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <div class="room-item">
+                            <div class="room-image">
+                                <img src="<?=base_url('assets/images/room-list/list5.jpg');?>" alt="image">
+                            </div>
+                            <div class="room-content">
+                                <div class="room-title">
+                                    <h4>Penthouse Suite</h4>
+                                    <p><i class="fa fa-tag"></i> $800/Night</p>
+                                    <div class="deal-rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                </div>
+                                <div class="room-services mar-bottom-15">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <i class="fa fa-bed" aria-hidden="true"></i> 3 Bedrooms
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <i class="fa fa-wifi" aria-hidden="true"></i> Quick Service
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum orci nulla,
+                                    fermentum in faucibus a, interdum eu nibh.</p>
+                                <div class="room-btns">
+                                    <a href="#" class="btn btn-black mar-right-10">VIEW DETAILS</a>
+                                    <a href="#" class="btn btn-orange">BOOK NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <div class="room-item">
+                            <div class="room-image">
+                                <img src="<?=base_url('assets/images/room-list/list6.jpg');?>" alt="image">
+                            </div>
+                            <div class="room-content">
+                                <div class="room-title">
+                                    <h4>Presidential Suite</h4>
+                                    <p><i class="fa fa-tag"></i> $700/Night</p>
+                                    <div class="deal-rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                </div>
+                                <div class="room-services mar-bottom-15">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <i class="fa fa-bed" aria-hidden="true"></i> 3 Bedrooms
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <i class="fa fa-wifi" aria-hidden="true"></i> Quick Service
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum orci nulla,
+                                    fermentum in faucibus a, interdum eu nibh.</p>
+                                <div class="room-btns">
+                                    <a href="#" class="btn btn-black mar-right-10">VIEW DETAILS</a>
+                                    <a href="#" class="btn btn-orange">BOOK NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <div class="room-item">
+                            <div class="room-image">
+                                <img src="<?=base_url('assets/images/room-list/list7.jpg');?>" alt="image">
+                            </div>
+                            <div class="room-content">
+                                <div class="room-title">
+                                    <h4>Super Deluxe</h4>
+                                    <p><i class="fa fa-tag"></i> $600/Night</p>
+                                    <div class="deal-rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                </div>
+                                <div class="room-services mar-bottom-15">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <i class="fa fa-bed" aria-hidden="true"></i> 3 Bedrooms
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <i class="fa fa-wifi" aria-hidden="true"></i> Quick Service
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum orci nulla,
+                                    fermentum in faucibus a, interdum eu nibh.</p>
+                                <div class="room-btns">
+                                    <a href="#" class="btn btn-black mar-right-10">VIEW DETAILS</a>
+                                    <a href="#" class="btn btn-orange">BOOK NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <div class="room-item">
+                            <div class="room-image">
+                                <img src="<?=base_url('assets/images/room-list/list8.jpg');?>" alt="image">
+                            </div>
+                            <div class="room-content">
+                                <div class="room-title">
+                                    <h4>Junior Suite</h4>
+                                    <p><i class="fa fa-tag"></i> $500/Night</p>
+                                    <div class="deal-rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                </div>
+                                <div class="room-services mar-bottom-15">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <i class="fa fa-bed" aria-hidden="true"></i> 3 Bedrooms
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <i class="fa fa-wifi" aria-hidden="true"></i> Quick Service
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum orci nulla,
+                                    fermentum in faucibus a, interdum eu nibh.</p>
+                                <div class="room-btns">
+                                    <a href="#" class="btn btn-black mar-right-10">VIEW DETAILS</a>
+                                    <a href="#" class="btn btn-orange">BOOK NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="room-item">
+                            <div class="room-image">
+                                <img src="<?=base_url('assets/images/room-list/list9.jpg');?>" alt="image">
+                            </div>
+                            <div class="room-content">
+                                <div class="room-title">
+                                    <h4>Executive Suite</h4>
+                                    <p><i class="fa fa-tag"></i> $400/Night</p>
+                                    <div class="deal-rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                </div>
+                                <div class="room-services mar-bottom-15">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <i class="fa fa-bed" aria-hidden="true"></i> 3 Bedrooms
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <i class="fa fa-wifi" aria-hidden="true"></i> Quick Service
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum orci nulla,
+                                    fermentum in faucibus a, interdum eu nibh.</p>
+                                <div class="room-btns">
+                                    <a href="#" class="btn btn-black mar-right-10">VIEW DETAILS</a>
+                                    <a href="#" class="btn btn-orange">BOOK NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
