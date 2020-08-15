@@ -37,8 +37,8 @@
                 <div class="container">
 
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="index-2.html">
-                            <img alt="Image" src="<?=base_url('assets/images/logo-black.png');?>" class="logo-black">
+                        <a class="navbar-brand" href="<?=base_url();?>">
+                            <img alt="Image" src="<?=base_url('assets/images/logo1.jpg');?>" class="logo-black">
                         </a>
                     </div>
 

@@ -2,17 +2,17 @@
         <div class="slider">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide" style="background-image:url(assets/images/slider/slider3.jpg)">
+                    <div class="swiper-slide" style="background-image:url(assets/images/slider/kili_slider1.jpg)">
                         <div class="swiper-content">
                             <h1 data-animation="animated fadeInUp">Enjoy With<span> KILITREKISAFARI</span></h1>
                         </div>
                     </div>
-                    <div class="swiper-slide" style="background-image:url(assets/images/slider/slider2.jpg)">
+                    <div class="swiper-slide" style="background-image:url(assets/images/slider/kili_slider2.jpg)">
                         <div class="swiper-content">
                             <h1 data-animation="animated fadeInUp">Spend Your <span>Holidays</span> With Us</h1>
                         </div>
                     </div>
-                    <div class="swiper-slide" style="background-image:url(assets/images/slider/slider1.jpg)">
+                    <div class="swiper-slide" style="background-image:url(assets/images/slider/kili_slider3.jpg)">
                         <div class="swiper-content">
                             <h1 data-animation="animated fadeInUp">EnJoy to the World <span>Travel and Tours</span></h1>
                             
@@ -104,26 +104,25 @@
                                 gravida. Nunc vel maximus libero. Quisque ligula nisi, hendrerit et scelerisque et,
                                 scelerisque vitae magna. Integer sollicitudin, ex auctor iaculis tempor, mauris odio
                                 accumsan odio.</p>
-                            <a href="#" class="btn btn-orange mar-top-10">KNOW MORE ABOUT US <i
-                                    class="fas fa-angle-double-right"></i></a>
+                            <a href="#" class="btn btn-orange mar-top-10">KNOW MORE ABOUT US</a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="about-image">
                             <div class="image-box">
                                 <div class="image-1 abt-image">
-                                    <img src="<?=base_url('assets/images/about1.jpg');?>" alt="image">
+                                    <img src="<?=base_url('assets/images/kili_about1.jpg');?>" alt="image">
                                 </div>
                                 <div class="image-2 abt-image">
-                                    <img src="<?=base_url('assets/images/about2.jpg');?>" alt="image">
+                                    <img src="<?=base_url('assets/images/kili_about2.jpg');?>" alt="image">
                                 </div>
                             </div>
                             <div class="image-box">
                                 <div class="image-3 abt-image">
-                                    <img src="<?=base_url('assets/images/about3.jpg');?>" alt="image">
+                                    <img src="<?=base_url('assets/images/kili_about3.jpg');?>" alt="image">
                                 </div>
                                 <div class="image-4 abt-image">
-                                    <img src="<?=base_url('assets/images/about4.jpg');?>" alt="image">
+                                    <img src="<?=base_url('assets/images/kili_about4.jpg');?>" alt="image">
                                 </div>
                             </div>
                         </div>
@@ -141,91 +140,46 @@
             </div>
             <div class="room-outer">
                 <div class="row">
+                    <?php
+                    $this->db->order_by('id');
+                    $destinations = $this->db->get('destination');
+                    foreach($destinations->result() as $row){
+                        $content = $row->description;
+                        $content_len = strlen($content);
+                    ?>
                     <div class="col-md-4 col-sm-6 col-xs-6" style="padding: 10px">
                         <div class="room-item">
                             <div class="room-image">
-                                <img src="<?=base_url('assets/images/room1.jpg');?>" alt="image">
+                                <img src="<?=base_url('assets/images/');?><?=$row->image_url;?>" alt="image">
                             </div>
                             <div class="room-content">
                                 <div class="room-title">
-                                    <h4>Super Deluxe</h4>
-                                    <p>$1200 five days</p>
-                                    
+                                    <h4><?=$row->route_name;?></h4>
+                                    <p><?=$row->duration;?></p>
                                 </div>
                                 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum orci nulla,
-                                    fermentum in faucibus a, interdum eu nibh.</p>
-                                <div class="room-btns mar-top-20">
-                                    <a href="#" class="btn btn-black mar-right-10">VIEW DETAILS</a>
-                                    <a href="#" class="btn btn-orange">BOOK NOW</a>
+                                <p>
+                                <?php
+                                if($content_len > 230){
+                                echo substr($content, 0, 230).'....';
+                                }else{
+                                echo $content;
+                                if($content_len>100){
+                                    echo substr($content, 0, 100);
+                                }
+                                }
+                                ?>
+                                </p>
+                                <div class="room-btns mar-top-20 text-center">
+                                    <a href="<?=base_url('main/single_destination');?>/<?=$row->id;?>" class="btn btn-black mar-right-10">VIEW DETAILS</a>
+                                    <!-- <a href="#" class="btn btn-orange">BOOK NOW</a> -->
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-6" style="padding: 10px">
-                        <div class="room-item">
-                            <div class="room-image">
-                                <img src="<?=base_url('assets/images/room2.jpg');?>" alt="image">
-                            </div>
-                            <div class="room-content">
-                                <div class="room-title">
-                                    <h4>Junior Suite</h4>
-                                    <p>$1200/Night</p>
-                                    <div class="deal-rating">
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                    </div>
-                                </div>
-                                <div class="room-services mar-bottom-15">
-                                    <ul>
-                                        <li><i class="fa fa-bed" aria-hidden="true"></i> 3 Bedrooms</li>
-                                        <li><i class="fa fa-wifi" aria-hidden="true"></i> Wifi</li>
-                                    </ul>
-                                </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum orci nulla,
-                                    fermentum in faucibus a, interdum eu nibh.</p>
-                                <div class="room-btns mar-top-20">
-                                    <a href="#" class="btn btn-black mar-right-10">VIEW DETAILS</a>
-                                    <a href="#" class="btn btn-orange">BOOK NOW</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-12 col-xs-12" style="padding: 10px">
-                        <div class="room-item">
-                            <div class="room-image">
-                                <img src="<?=base_url('assets/images/room3.jpg');?>" alt="image">
-                            </div>
-                            <div class="room-content">
-                                <div class="room-title">
-                                    <h4>Executive Suite</h4>
-                                    <p>$1200/Night</p>
-                                    <div class="deal-rating">
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                    </div>
-                                </div>
-                                <div class="room-services mar-bottom-15">
-                                    <ul>
-                                        <li><i class="fa fa-bed" aria-hidden="true"></i> 3 Bedrooms</li>
-                                        <li><i class="fa fa-wifi" aria-hidden="true"></i> Wifi</li>
-                                    </ul>
-                                </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum orci nulla,
-                                    fermentum in faucibus a, interdum eu nibh.</p>
-                                <div class="room-btns mar-top-20">
-                                    <a href="#" class="btn btn-black mar-right-10">VIEW DETAILS</a>
-                                    <a href="#" class="btn btn-orange">BOOK NOW</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </div> 
+                    <?php
+                    }
+                    ?>
                 </div>
             </div>
            
