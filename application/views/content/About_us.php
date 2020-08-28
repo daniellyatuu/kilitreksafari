@@ -19,15 +19,20 @@
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <div class="about-para mar-top-50">
                         <h4>Explore more about us</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta velit eu nisi consequat
-                            dictum. Maecenas accumsan tempor neque sed mattis. Morbi quis nunc pharetra, suscipit lacus
-                            quis, pharetra dignissim nibh a nunc aliquet.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta velit eu nisi consequat
-                            dictum. Maecenas accumsan tempor neque sed mattis. Morbi quis nunc pharetra, suscipit lacus
-                            quis, pharetra dignissim nibh a nunc aliquet.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta velit eu nisi consequat
-                            dictum. Maecenas accumsan tempor neque sed mattis. </p>
-                        
+                        <p style="text-align: justify;text-justify: inter-word;">
+                            About us, we have an experience of  14 years of organize the trip of tours for mountain climbing especially ,
+                            for Mountain Kilimanjaro which is the highest in Tanzania  and dormant volcanoes. Also is the highest peak in
+                            Africa and Mountain Meru is dormant volcanoes in Tanzania ,  for difference itnerary and luxury camping  safari
+                               and lodge safaris  for Good services and quality prices ,also to offer some mountain equipment  like walking sticks
+                                ,Head torch,mattresses ,warm jackets,for cheap prices if you decides to book the  trips for us.You can book 
+                                the trip from us within TWENTY FOUR  hours.dont forget, our experiences is for acting practically and not 
+                                theoretically only,which means the services we gave you  according as, we did physically in practically in 
+                                our field of tour and you can see the good example from the gallery photos both at mountain climbing  
+                                on Kilimanjaro,Mountain  Meru and  safaris. we organize the tours in holiday beach in Zanzibar 
+                                if you book from us this is another  party for enjoyable after both mountain and safaris.we organize
+                                  the Day trip tour safaris, hiking tours day trip   and town tours ,including culture tours ,like visiting
+                                   village, water falls ,local house like Boma house  in Maasai tribles,hot water lakes and picnic sites.After success the trip your dream will be unforgetable or wonderful   trip or tour. 
+                            </p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
@@ -41,12 +46,12 @@
                     </div>
                 </div>
             </div>
-            <div class="about-tag">
+            <div class="about-tag" style="margin-right: 100px;">
                 <div class="tag-no">
-                    <span>3</span>
+                    <span>14</span>
                 </div>
                 <div class="tag-info">
-                    <span>years</span>
+                    <span>years of</span>
                     <span class="orange">working</span>
                     <span>experience</span>
                 </div>

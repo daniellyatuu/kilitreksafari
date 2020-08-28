@@ -96,15 +96,21 @@
                     <div class="col-md-6">
                         <div class="about-content">
                             <h3 class="mar-bottom-30">Finest tourist company in Tanzania</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque varius iaculis
-                                gravida. Nunc vel maximus libero. Quisque ligula nisi, hendrerit et scelerisque et,
-                                scelerisque vitae magna. Integer sollicitudin, ex auctor iaculis tempor, mauris odio
-                                accumsan odio.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque varius iaculis
-                                gravida. Nunc vel maximus libero. Quisque ligula nisi, hendrerit et scelerisque et,
-                                scelerisque vitae magna. Integer sollicitudin, ex auctor iaculis tempor, mauris odio
-                                accumsan odio.</p>
-                            <a href="#" class="btn btn-orange mar-top-10">KNOW MORE ABOUT US</a>
+                            <p style="text-align: justify;text-justify: inter-word;">
+                            About us, we have an experience of  14 years of organize the trip of tours for mountain climbing especially ,
+                             for Mountain Kilimanjaro which is the highest in Tanzania  and dormant volcanoes. Also is the highest peak in
+                              Africa and Mountain Meru is dormant volcanoes in Tanzania ,  for difference itnerary and luxury camping  safari
+                               and lodge safaris  for Good services and quality prices ,also to offer some mountain equipment  like walking sticks
+                                ,Head torch,mattresses ,warm jackets,for cheap prices if you decides to book the  trips for us.You can book 
+                                the trip from us within TWENTY FOUR  hours.dont forget, our experiences is for acting practically and not 
+                                theoretically only,which means the services we gave you  according as, we did physically in practically in 
+                                our field of tour and you can see the good example from the gallery photos both at mountain climbing  
+                                on Kilimanjaro,Mountain  Meru and  safaris. we organize the tours in holiday beach in Zanzibar 
+                                if you book from us this is another  party for enjoyable after both mountain and safaris.we organize
+                                  the Day trip tour safaris, hiking tours day trip   and town tours ,including culture tours ,like visiting
+                                   village, water falls ,local house like Boma house  in Maasai tribles,hot water lakes and picnic sites.After success the trip your dream will be unforgetable or wonderful   trip or tour. 
+                            </p>
+                            <!-- <a href="#" class="btn btn-orange mar-top-10">KNOW MORE ABOUT US</a> -->
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -136,7 +142,7 @@
     <section class="rooms">
         <div class="container">
             <div class="section-title">
-                <h2>Destination</h2>
+                <h2>Mount Climbing Destination</h2>
             </div>
             <div class="room-outer">
                 <div class="row">
@@ -152,7 +158,7 @@
                             <div class="room-image">
                                 <img src="<?=base_url('assets/images/');?><?=$row->image_url;?>" alt="image">
                             </div>
-                            <div class="room-content">
+                            <div class="room-content" style="text-align: justify;text-justify: inter-word;">
                                 <div class="room-title">
                                     <h4><?=$row->route_name;?></h4>
                                     <p><?=$row->duration;?></p>
@@ -172,6 +178,58 @@
                                 </p>
                                 <div class="room-btns mar-top-20 text-center">
                                     <a href="<?=base_url('main/single_destination');?>/<?=$row->id;?>" class="btn btn-black mar-right-10">VIEW DETAILS</a>
+                                    <!-- <a href="#" class="btn btn-orange">BOOK NOW</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <?php
+                    }
+                    ?>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <section class="rooms">
+        <div class="container">
+            <div class="section-title">
+                <h2>Safari Destination</h2>
+            </div>
+            <div class="room-outer">
+                <div class="row">
+                    <?php
+                    $this->db->order_by('id');
+                    $destinations = $this->db->get('safari');
+                    foreach($destinations->result() as $row){
+                        $content = $row->description;
+                        $content_len = strlen($content);
+                    ?>
+                    <div class="col-md-4 col-sm-6 col-xs-6" style="padding: 10px">
+                        <div class="room-item">
+                            <div class="room-image">
+                                <img src="<?=base_url('assets/images/');?><?=$row->image_url;?>" alt="image">
+                            </div>
+                            <div class="room-content" style="text-align: justify;text-justify: inter-word;">
+                                <div class="room-title">
+                                    <h4><?=$row->route_name;?></h4>
+                                </div>
+                                
+                                <p>
+                                <?php
+                                if($content_len > 230){
+                                echo substr($content, 0, 230).'....';
+                                }else{
+                                echo $content;
+                                if($content_len>100){
+                                    echo substr($content, 0, 100);
+                                }
+                                }
+                                ?>
+                                </p>
+                                <div class="room-btns mar-top-20 text-center">
+                                    <!-- <a href="<?=base_url('main/single_destination');?>/<?=$row->id;?>" class="btn btn-black mar-right-10">VIEW DETAILS</a> -->
                                     <!-- <a href="#" class="btn btn-orange">BOOK NOW</a> -->
                                 </div>
                             </div>

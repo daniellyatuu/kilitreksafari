@@ -51,19 +51,22 @@ foreach($destinations->result() as $row){
                         <div id="exTab1">
                             <ul class="nav nav-pills">
                                 <li class="active"><a href="#1a" data-toggle="tab">Overview</a></li>
-                                <li><a href="#2a" data-toggle="tab">Price/Rate</a></li>
+                                <!-- <li><a href="#2a" data-toggle="tab">Price/Rate</a></li> -->
                                 
                             </ul>
                             <div class="tab-content clearfix">
                                 <div class="tab-pane active" id="1a">
-                                    <div class="detail-overview detail-box">
-                                        <h4>Overview</h4>
+                                    <div class="detail-overview detail-box" style="text-align: justify;text-justify: inter-word;">
+                                        
                                         <?=$content;?>
                                     </div>
                                 </div>
+                                <?php
+                                /*
+                                ?>
                                 <div class="tab-pane" id="2a">
                                     <div class="price-table detail-box">
-                                        <h4>Route Price</h4>
+                                        
                                         <table class="table table-bordered">
                                             <thead>
                                                 <tr>
@@ -90,6 +93,9 @@ foreach($destinations->result() as $row){
                                         </table>
                                     </div>
                                 </div>
+                                <?php
+                                */
+                                ?>
                                
                             </div>
                         </div>

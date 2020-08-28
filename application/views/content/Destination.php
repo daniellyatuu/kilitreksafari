@@ -29,7 +29,7 @@
                             <div class="room-image">
                                 <img src="<?=base_url('assets/images/');?><?=$row->image_url;?>" alt="image">
                             </div>
-                            <div class="room-content">
+                            <div class="room-content" style="text-align: justify;text-justify: inter-word;">
                                 <div class="room-title">
                                     <h4><?=$row->route_name;?></h4>
                                     <p><?=$row->duration;?></p>
