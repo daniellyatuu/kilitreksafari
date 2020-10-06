@@ -1,7 +1,7 @@
 
 <?php
 $this->db->where('id', $this->uri->segment(3));
-$destinations = $this->db->get('destination');
+$destinations = $this->db->get('safari');
 
 // check if destination exist
 $count = $destinations->num_rows();

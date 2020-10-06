@@ -14,7 +14,9 @@
 
     <section class="room-list">
         <div class="container">
-            
+		<div class="section-title">
+                <h2>MOUNT CLIMBING DESTINATION</h2>
+            </div>
             <div class="list-content">
                 <div class="row">
                 <?php
@@ -60,5 +62,58 @@
                 </div>
             </div>
             
+        </div>
+    </section>
+
+
+	<section class="rooms">
+        <div class="container">
+            <div class="section-title">
+                <h2>Safari Destination</h2>
+            </div>
+            <div class="room-outer">
+                <div class="row">
+                    <?php
+                    $this->db->order_by('id');
+                    $destinations = $this->db->get('safari');
+                    foreach($destinations->result() as $row){
+                        $content = $row->description;
+                        $content_len = strlen($content);
+                    ?>
+                    <div class="col-md-4 col-sm-6 col-xs-6" style="padding: 10px">
+                        <div class="room-item">
+                            <div class="room-image">
+                                <img src="<?=base_url('assets/images/');?><?=$row->image_url;?>" alt="image">
+                            </div>
+                            <div class="room-content" style="text-align: justify;text-justify: inter-word;">
+                                <div class="room-title">
+                                    <h4><?=$row->route_name;?></h4>
+                                </div>
+                                
+                                <p>
+                                <?php
+                                if($content_len > 240){
+                                echo substr($content, 0, 240).'....';
+                                }else{
+                                echo $content;
+                                if($content_len>100){
+                                    echo substr($content, 0, 100);
+                                }
+                                }
+                                ?>
+                                </p>
+                                <div class="room-btns mar-top-20 text-center">
+                                    <a href="<?=base_url('main/single_safari');?>/<?=$row->id;?>" class="btn btn-black mar-right-10">VIEW DETAILS</a>
+                                    <!-- <a href="#" class="btn btn-orange">BOOK NOW</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <?php
+                    }
+                    ?>
+                </div>
+            </div>
+           
         </div>
     </section>
