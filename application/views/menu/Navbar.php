@@ -44,7 +44,7 @@
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav" id="responsive-menu">
-                            <li class="active">
+                            <li>
                                 <a href="<?=base_url();?>" <?php if(!empty($active)){ if($active=='index'){?> style="color: red;" <?php } } ?>>Home</a>
                             </li>
                             <li class="">

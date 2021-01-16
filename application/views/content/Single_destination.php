@@ -104,16 +104,19 @@ foreach($destinations->result() as $row){
                 <div class="col-md-4">
                     <div class="detail-sidebar">
                         <div class="sidebar-support">
-                            <h3>Help and Support</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut arnare</p>
-                            <p><i class="fa fa-phone"></i> +(255) 787 096 001</p>
+                            <h3>Help, Support and Booking</h3>
+                            <p><i class="fa fa-envelope"></i> info@kilitreksafari.com</p>
+                            <p><i class="fa fa-phone"></i> +(255) 766 120 349</p>
                         </div>
-                        <div class="sidebar-room">
+						
+						
+						<!-- <div class="sidebar-room">
                             <div class="sr-image">
                                 <img src="<?=base_url('assets/images/sr1.jpg'); ?>" alt="image">
                             </div>
                             
-                        </div>
+                        </div> -->
+						
                     </div>
                 </div>
             </div>
