@@ -23,7 +23,7 @@
                                 <i class="fa fa-map-marker"></i>
                             </div>
                             <div class="info-content">
-                                <p>445 Mount Eden Road, Arusha Tanzania</p>
+                                <p>Sanawari, Arusha</p>
                             </div>
                         </div>
                     </div>
@@ -33,8 +33,7 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="info-content">
-                                <p>+(255)744-666-888</p>
-                                <p>+(255)744-666-888</p>
+                                <p>+(255)766-120-349</p>
                             </div>
                         </div>
                     </div>
@@ -44,16 +43,13 @@
                                 <i class="fa fa-envelope"></i>
                             </div>
                             <div class="info-content">
-                                <p><a href="#" class="__cf_email__"
-                                        data-cfemail="c5acaba3aa85adaab1b0bdeba6aaa8ebabb5">info@kilitrekisafari.com</a>
-                                </p>
-                                <
+                                <p>info@seneciotrek.com</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="contact-support">
+            <!-- <div class="contact-support">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="support-item">
@@ -77,7 +73,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- <div class="contact-map">
                 <div class="row">
                     <div class="col-md-6">

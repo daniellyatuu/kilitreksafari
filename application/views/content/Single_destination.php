@@ -105,7 +105,7 @@ foreach($destinations->result() as $row){
                     <div class="detail-sidebar">
                         <div class="sidebar-support">
                             <h3>Help, Support and Booking</h3>
-                            <p><i class="fa fa-envelope"></i> info@kilitreksafari.com</p>
+                            <p><i class="fa fa-envelope"></i> info@seneciotrek.com</p>
                             <p><i class="fa fa-phone"></i> +(255) 766 120 349</p>
                         </div>
 						

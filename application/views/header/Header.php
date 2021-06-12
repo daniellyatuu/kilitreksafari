@@ -6,7 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>kilitrekisafari | <?=$title;?></title>
+<title>Seneciotrek | <?=$title;?></title>
 
 <script src="<?=base_url('assets/js/aXeeT3C8FEVE2uMUPMMUDxVnKrs.js');?>"></script><link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 

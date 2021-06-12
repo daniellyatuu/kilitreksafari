@@ -1,7 +1,7 @@
 
-    <div id="preloader">
+    <!-- <div id="preloader">
         <div id="status"></div>
-    </div>
+    </div> -->
 
 
     <header class="main_header_area headerstyle-2">
@@ -9,7 +9,7 @@
             <div class="container">
                 <div class="links links-left">
                     <ul>
-                        <li><a href="javascript:void(0);">info@kilitrekisafari.com</a>
+                        <li><a href="javascript:void(0);">info@seneciotrek.com</a>
                         </li>
                         <li><a href="javascript:void(0);"><i class="fa fa-phone" aria-hidden="true"></i>+(255) 787 096 001</a></li>
                     </ul>
@@ -22,9 +22,9 @@
                                     aria-hidden="true"></i> Register</a></li> -->
                         <li>
                             <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <!-- <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> -->
+                                <li><a href="https://www.instagram.com/kilitreksafari/?hl=en" target = '_blank'><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -38,7 +38,7 @@
 
                     <div class="navbar-header">
                         <a class="navbar-brand" href="<?=base_url();?>">
-                            <img alt="Image" src="<?=base_url('assets/images/logo1.jpg');?>" class="logo-black">
+                            <img alt="Image" src="<?=base_url('assets/images/logo2.jpg');?>" class="logo-black">
                         </a>
                     </div>
 

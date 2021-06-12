@@ -4,7 +4,7 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="copyright-content text-center">
-                            <p>Copyright <?=date('Y');?>. All Rights Reserved. <a href="javascrip">kilitrekisafari</a></p>
+                            <p>Copyright <?=date('Y');?>. All Rights Reserved. <a href="javascrip">Seneciotrek and Safari Adventure</a></p>
                         </div>
                     </div>
                     

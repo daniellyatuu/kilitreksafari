@@ -4,7 +4,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" style="background-image:url(assets/images/slider/kili_slider1.jpg)">
                         <div class="swiper-content">
-                            <h1 data-animation="animated fadeInUp">Enjoy With<span> KILITREKISAFARI</span></h1>
+                            <h1 data-animation="animated fadeInUp">Enjoy With<span> SENECIOTREK AND SAFARI ADVENTURE</span></h1>
                         </div>
                     </div>
                     <div class="swiper-slide" style="background-image:url(assets/images/slider/kili_slider2.jpg)">
@@ -24,72 +24,13 @@
             </div>
             <div class="overlay"></div>
         </div>
-        <!-- <div class="banner-form form-style-2">
-            <div class="form-content">
-                <div class="form-title">
-                    <h4 class="mar-0">Reserve Your Room</h4>
-                </div>
-                <div class="form-content-inner">
-                    <div class="table-item">
-                        <div class="form-group">
-                            <div class="date-range-inner-wrapper">
-                                <input id="date-range2" class="form-control" value="Check In">
-                                <span class="input-group-addon">
-                                    <i class="fa fa-calendar" aria-hidden="true"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="table-item">
-                        <label>Check Out</label>
-                        <div class="form-group">
-                            <div class="date-range-inner-wrapper">
-                                <input id="date-range3" class="form-control" value="Check Out">
-                                <span class="input-group-addon">
-                                    <i class="fa fa-calendar" aria-hidden="true"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="table-item">
-                        <label>Guests</label>
-                        <div class="form-group form-icon">
-                            <select>
-                                <option value="1">0</option>
-                                <option value="2">1</option>
-                                <option value="3">2</option>
-                                <option value="4">3</option>
-                                <option value="5">4</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="table-item">
-                        <label>Nights</label>
-                        <div class="form-group form-icon">
-                            <select>
-                                <option value="1">0</option>
-                                <option value="2">1</option>
-                                <option value="3">2</option>
-                                <option value="4">3</option>
-                                <option value="5">4</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="table-item">
-                        <div class="form-btn">
-                            <a class="btn btn-orange">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
     </section>
 
 
     <section class="about-us">
         <div class="container">
             <div class="section-title">
-                <h2>About <span>Us</span></h2>
+                <h2>About <span>seneciotrek and safari adventure</span></h2>
             </div>
             <div class="about-outer">
                 <div class="row">
@@ -97,18 +38,20 @@
                         <div class="about-content">
                             <h3 class="mar-bottom-30">Finest tourist company in Tanzania</h3>
                             <p style="text-align: justify;text-justify: inter-word;">
-                            About us, we have an experience of  14 years of organize the trip of tours for mountain climbing especially ,
-                             for Mountain Kilimanjaro which is the highest in Tanzania  and dormant volcanoes. Also is the highest peak in
-                              Africa and Mountain Meru is dormant volcanoes in Tanzania ,  for difference itnerary and luxury camping  safari
-                               and lodge safaris  for Good services and quality prices ,also to offer some mountain equipment  like walking sticks
-                                ,Head torch,mattresses ,warm jackets,for cheap prices if you decides to book the  trips for us.You can book 
-                                the trip from us within TWENTY FOUR  hours.dont forget, our experiences is for acting practically and not 
-                                theoretically only,which means the services we gave you  according as, we did physically in practically in 
-                                our field of tour and you can see the good example from the gallery photos both at mountain climbing  
-                                on Kilimanjaro,Mountain  Meru and  safaris. we organize the tours in holiday beach in Zanzibar 
-                                if you book from us this is another  party for enjoyable after both mountain and safaris.we organize
-                                  the Day trip tour safaris, hiking tours day trip   and town tours ,including culture tours ,like visiting
-                                   village, water falls ,local house like Boma house  in Maasai tribles,hot water lakes and picnic sites.After success the trip your dream will be unforgetable or wonderful   trip or tour. 
+                            Seneciotreki and Safari Adventure has an experience of more than 14 years of 
+                            experience organizing mountaining climbing tours to mount kilimanjaro, the highest
+                             mountain in Africa and a dormant volcano. We can offer you flexible itinerary 
+                             options like mountain climbing to mount kilimanjaro and mount meru,luxury safaris
+                              tours to the many National parks in Tanzania, hiking treks, day trips and culture
+                               tours where  you can see the boma houses of the masai tribes authentic villages,
+                                hot water lakes,water  falls and picnic  sites.We can provide rented  mountain
+                                  equipment  like,walking  sticks, 
+                            head torches, mattress,warm jackets, and more - just ask! Our great  guides,
+                             cooks and porters have extensive practical  experience  across Tanzania and
+                              you can find many good examples  in our  gallery  and on Instagram. 
+                              After your  unforgetable  mountaining climbing or safari Adventure ,you
+                               can organize  a trip to the beaches of Zanzibar  for some party  time
+                                or to enjoy a few relaxing  day.You can book your  unforgetable trip from us within 24 hours!. 
                             </p>
                             <!-- <a href="#" class="btn btn-orange mar-top-10">KNOW MORE ABOUT US</a> -->
                         </div>
@@ -117,18 +60,18 @@
                         <div class="about-image">
                             <div class="image-box">
                                 <div class="image-1 abt-image">
-                                    <img src="<?=base_url('assets/images/kili_about1.jpg');?>" alt="image">
+                                    <img src="<?=base_url('assets/images/kili_about11.jpg');?>" alt="image">
                                 </div>
                                 <div class="image-2 abt-image">
-                                    <img src="<?=base_url('assets/images/kili_about2.jpg');?>" alt="image">
+                                    <img src="<?=base_url('assets/images/kili_about22.jpg');?>" alt="image">
                                 </div>
                             </div>
                             <div class="image-box">
                                 <div class="image-3 abt-image">
-                                    <img src="<?=base_url('assets/images/kili_about3.jpg');?>" alt="image">
+                                    <img src="<?=base_url('assets/images/kili_about33.jpg');?>" alt="image">
                                 </div>
                                 <div class="image-4 abt-image">
-                                    <img src="<?=base_url('assets/images/kili_about4.jpg');?>" alt="image">
+                                    <img src="<?=base_url('assets/images/kili_about44.jpg');?>" alt="image">
                                 </div>
                             </div>
                         </div>
@@ -253,12 +196,13 @@
                         data-channel="vimeo"><i class="fa fa-play"></i></button>
                 </div>
                 <div class="video-figure"></div>
-                <h2 class="white mar-top-25 mar-bottom-0">Tour with <br><span>KILITREKISAFARI</span></h2>
+                <h2 class="white mar-top-25 mar-bottom-0">Tour with <br><span>SENECIOTREK AND SAFARI ADVENTURE</span></h2>
             </div>
         </div>
     </section>
 
-    <section class="content gallery" data-ref="container-1">
+
+	<section class="content gallery" data-ref="container-1">
         <div class="container">
             
             <div class="row">
@@ -269,15 +213,16 @@
                     <div class="mt_filter">
                         <ul class="list-inline text-center filter">
                             <li class="active"><a href="#" data-filter="*">All</a></li>
-                            <li><a href="#" data-filter=".restro">Mount Climbing</a></li>
-                            <li><a href="#" data-filter=".rooms">Traveling</a></li>
+                            <li><a href="#" data-filter=".restro">Mountain Climbing</a></li>
+                            <li><a href="#" data-filter=".rooms">Safari</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="row mar-top-50">
                 <div class="isotopeContainer">
-                    <div class="isotopeSelector conference col-md-3 col-sm-6 col-xs-12">
+				
+                    <div class="isotopeSelector restro col-md-3 col-sm-6 col-xs-12">
                         <div class="gallery-item">
                             <div class="gallery-image">
                                 <img src="<?=base_url('assets/images/gallery/pic1.jpg');?>" alt="image">
@@ -319,7 +264,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="isotopeSelector conference col-md-3 col-sm-6 col-xs-12">
+                    <div class="isotopeSelector restro col-md-3 col-sm-6 col-xs-12">
                         <div class="gallery-item">
                             <div class="gallery-image">
                                 <img src="<?=base_url('assets/images/gallery/pic4.jpg');?>" alt="image">
@@ -375,7 +320,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="isotopeSelector conference col-md-3 col-sm-6 col-xs-12">
+                    <div class="isotopeSelector restro col-md-3 col-sm-6 col-xs-12">
                         <div class="gallery-item">
                             <div class="gallery-image">
                                 <img src="<?=base_url('assets/images/gallery/pic8.jpg');?>" alt="image">
@@ -389,7 +334,248 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="isotopeSelector restro col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/pic21.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="<?=base_url('assets/images/gallery/pic21.jpg'); ?>" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="isotopeSelector restro col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/pic22.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="<?=base_url('assets/images/gallery/pic22.jpg'); ?>" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="isotopeSelector restro col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/pic23.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="<?=base_url('assets/images/gallery/pic23.jpg'); ?>" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="isotopeSelector restro col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/pic24.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="<?=base_url('assets/images/gallery/pic24.jpg'); ?>" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                     
+					<div class="isotopeSelector restro col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/pic9.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="<?=base_url('assets/images/gallery/pic9.jpg'); ?>" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+					<div class="isotopeSelector restro col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/pic10.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="<?=base_url('assets/images/gallery/pic10.jpg'); ?>" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+					<div class="isotopeSelector restro col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/pic11.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="<?=base_url('assets/images/gallery/pic11.jpg'); ?>" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+					<div class="isotopeSelector restro col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/pic12.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="<?=base_url('assets/images/gallery/pic12.jpg'); ?>" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+					<div class="isotopeSelector restro col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/pic13.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="<?=base_url('assets/images/gallery/pic13.jpg'); ?>" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+					<div class="isotopeSelector restro col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/pic14.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="<?=base_url('assets/images/gallery/pic14.jpg'); ?>" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+					<div class="isotopeSelector rooms col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/pic15.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="<?=base_url('assets/images/gallery/pic15.jpg'); ?>" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+					<div class="isotopeSelector restro col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/pic16.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="<?=base_url('assets/images/gallery/pic16.jpg'); ?>" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+					<div class="isotopeSelector rooms col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/pic17.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="<?=base_url('assets/images/gallery/pic17.jpg'); ?>" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+					<div class="isotopeSelector restro col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/pic18.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="<?=base_url('assets/images/gallery/pic18.jpg'); ?>" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+					<div class="isotopeSelector rooms col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/pic19.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="<?=base_url('assets/images/gallery/pic19.jpg'); ?>" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+					<div class="isotopeSelector restro col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="<?=base_url('assets/images/gallery/pic20.jpg');?>" alt="image">
+                            </div>
+                            <div class="gallery-content">
+                                <ul>
+                                    <li><a href="<?=base_url('assets/images/gallery/pic20.jpg'); ?>" data-lightbox="gallery"
+                                            data-title="Title"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
         </div>

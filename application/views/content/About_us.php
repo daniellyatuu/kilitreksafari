@@ -18,21 +18,23 @@
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <div class="about-para mar-top-50">
-                        <h4>Explore more about us</h4>
+                        <h4>Explore more about seneciotrek and safari adventure</h4>
                         <p style="text-align: justify;text-justify: inter-word;">
-                            About us, we have an experience of  14 years of organize the trip of tours for mountain climbing especially ,
-                            for Mountain Kilimanjaro which is the highest in Tanzania  and dormant volcanoes. Also is the highest peak in
-                            Africa and Mountain Meru is dormant volcanoes in Tanzania ,  for difference itnerary and luxury camping  safari
-                               and lodge safaris  for Good services and quality prices ,also to offer some mountain equipment  like walking sticks
-                                ,Head torch,mattresses ,warm jackets,for cheap prices if you decides to book the  trips for us.You can book 
-                                the trip from us within TWENTY FOUR  hours.dont forget, our experiences is for acting practically and not 
-                                theoretically only,which means the services we gave you  according as, we did physically in practically in 
-                                our field of tour and you can see the good example from the gallery photos both at mountain climbing  
-                                on Kilimanjaro,Mountain  Meru and  safaris. we organize the tours in holiday beach in Zanzibar 
-                                if you book from us this is another  party for enjoyable after both mountain and safaris.we organize
-                                  the Day trip tour safaris, hiking tours day trip   and town tours ,including culture tours ,like visiting
-                                   village, water falls ,local house like Boma house  in Maasai tribles,hot water lakes and picnic sites.After success the trip your dream will be unforgetable or wonderful   trip or tour. 
-                            </p>
+						Seneciotreki and Safari Adventure has an experience of more than 14 years of 
+                            experience organizing mountaining climbing tours to mount kilimanjaro, the highest
+                             mountain in Africa and a dormant volcano. We can offer you flexible itinerary 
+                             options like mountain climbing to mount kilimanjaro and mount meru,luxury safaris
+                              tours to the many National parks in Tanzania, hiking treks, day trips and culture
+                               tours where  you can see the boma houses of the masai tribes authentic villages,
+                                hot water lakes,water  falls and picnic  sites.We can provide rented  mountain
+                                  equipment  like,walking  sticks, 
+                            head torches, mattress,warm jackets, and more - just ask! Our great  guides,
+                             cooks and porters have extensive practical  experience  across Tanzania and
+                              you can find many good examples  in our  gallery  and on Instagram. 
+                              After your  unforgetable  mountaining climbing or safari Adventure ,you
+                               can organize  a trip to the beaches of Zanzibar  for some party  time
+                                or to enjoy a few relaxing  day.You can book your  unforgetable trip from us within 24 hours!.
+						</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">

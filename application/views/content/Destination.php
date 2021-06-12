@@ -1,7 +1,7 @@
 <section class="breadcrumb-outer">
         <div class="container">
             <div class="breadcrumb-content">
-                <h2>kilitrekisafari destination</h2>
+                <h2>Seneciotreki and Safari Adventure Destination</h2>
                 <nav aria-label="breadcrumb">
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
